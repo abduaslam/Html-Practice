@@ -2,6 +2,14 @@
 <html>
   <head>
     <title>06 - Create a HTML form</title>
+    <style>
+      #form1{
+        width: 400px;
+        height: 550px;
+        background-color: rgb(226, 144, 22);
+
+      }
+    </style>
   </head>
   <body>
     <!-- Add a form tag to your HTML page.  -->
@@ -14,5 +22,38 @@
     <!-- Add text between the opening and closing button tags that will be displayed on the button. -->
 
     <!-- READUP: HTML forms https://blog.codeskills.dev/html-forms -->
+     <div id="form1">
+     <form action="">
+      <label for="">Name :</label><br>
+      <input type="text" id="name"><br><br>  
+
+      <label for="">Email :</label><br>
+      <input type="email" id="email"><br><br>
+
+      <label for="">password :</label><br>
+      <input type="password" id="password"><br><br>
+
+
+      <label for="" >Which langueges do you speak</label><br>
+      <select name="" id="">
+      <option value="">English </option>
+      <option value="">Frensh</option>
+      <option value="">Arabic</option>
+      <option value="" selected>Kigarwanda</option>
+      <option value="">Germany</option>
+      </select><br><br> 
+
+      <label for="">Gender</label><br>
+      <label for="">male</label><br>
+      <input type="radio" name="qwe"><br>
+      <label for="">female</label><br>
+      <input type="radio" name="qwe"><br><br>
+
+      <label for="">Your brithday</label><br>
+      <input type="date"><br><br>
+
+      <button>Submit</button>
+     </form>
+     </div>
   </body>
 </html>
